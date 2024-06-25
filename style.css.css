@@ -1,0 +1,30 @@
+button {border-radius: 15%;}
+button {
+      transition-delay: 0.5ms;
+      transition-duration: 1s;
+      transition-property: 15;
+      transition-timing-function: ease-in;
+}
+
+button:hover {
+      color: blue;
+}
+
+
+img {
+      transform: rotate(100deg)
+}
+
+@keyframes Name {
+      0% {color: red;}
+      50% {color: blue;}
+      100% {color: green;}
+}
+h1 {
+      animation-name: Name;
+      animation-duration: 10s;
+      animation-timing-function: ease-in;
+      animation-delay: 1s;
+      animation-iteration-count: 2;
+      animation-direction: alternate;
+}
